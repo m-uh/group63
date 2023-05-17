@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Book Registration</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Author Registration</a>
+        <a href="student.html">Student Registration</a>
+        <a href="book.html">Book Registration</a>
+        <a href="order.html">Order Registration</a>
+        <a href="order_item.html">Order Item Registration</a>
+    </nav>
+    
+    <h1>Book Registration</h1>
+    <form id="book-form">
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title" required>
+        <br>
+        <label for="authorID">Author:</label>
+        <input type="number" id="authorID" name="authorID" required>
+        <br>
+        <label for="price">Price:</label>
+        <input type="number" id="price" name="price" step="0.01" required>
+        <br>
+        <button type="submit">Register</button>
+    </form>
+    
+    <h2>Examples:</h2>
+    <table>
+        <tr>
+            <th>bookID</th>
+            <th>title</th>
+            <th>authorID</th>
+            <th>price</th>
+            <th>Actions</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>1984</td>
+            <td>1</td>
+            <td>10.99</td>
+            <td>
+                <button type="button">Edit</button>
+                <button type="button">Delete</button>
+            </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Animal Farm</td>
+            <td>1</td>
+            <td>9.99</td>
+            <td>
+                <button type="button">Edit</button>
+                <button type="button">Delete</button>
+            </td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Harry Potter 1</td>
+            <td>2</td>
+            <td>12.99</td>
+            <td>
+                <button type="button">Edit</button>
+                <button type="button">Delete</button>
+            </td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Harry Potter 2</td>
+            <td>2</td>
+            <td>12.99</td>
+            <td>
+                <button type="button">Edit</button>
+                <button type="button">Delete</button>
+            </td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Pride and Prejudice</td>
+            <td>3</td>
+            <td>8.99</td>
+            <td>
+                <button type="button">Edit</button>
+                <button type="button">Delete</button>
+            </td>
+       

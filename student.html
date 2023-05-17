@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Author Registration</title>
+    <title>Student Registration</title>
 </head>
 <body>
     <nav>
@@ -14,25 +14,28 @@
         <a href="order.html">Order Registration</a>
         <a href="order_item.html">Order Item Registration</a>
     </nav>
-
-    <h1>Author Registration</h1>
-    <form id="author-form">
+    
+    <h1>Student Registration</h1>
+    <form id="student-form">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required>
         <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br>
         <button type="submit">Register</button>
     </form>
-
-    <h2>Authors:</h2>
+    
+    <h2>Student:</h2>
     <table>
         <tr>
-            <th>authorID</th>
+            <th>studentID</th>
             <th>name</th>
             <th>Actions</th>
         </tr>
         <tr>
             <td>1</td>
-            <td>George Orwell</td>
+            <td>John Doe</td>
             <td>
                 <button type="button">Edit</button>
                 <button type="button">Delete</button>
@@ -40,7 +43,7 @@
         </tr>
         <tr>
             <td>2</td>
-            <td>J.K. Rowling</td>
+            <td>Jane Smith</td>
             <td>
                 <button type="button">Edit</button>
                 <button type="button">Delete</button>
@@ -48,7 +51,7 @@
         </tr>
         <tr>
             <td>3</td>
-            <td>Jane Austen</td>
+            <td>Alice Johnson</td>
             <td>
                 <button type="button">Edit</button>
                 <button type="button">Delete</button>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        nav {
+            background-color: #333;
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+    </style>
+    <link rel="stylesheet" href="styles.css">
+    <title>Order Registration</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Author Registration</a>
+        <a href="student.html">Student Registration</a>
+        <a href="book.html">Book Registration</a>
+        <a href="order.html">Order Registration</a>
+        <a href="order_item.html">Order Item Registration</a>
+    </nav>
+    
+    <h1>Order Registration</h1>
+    <form id="order-form">
+        <label for="studentID">Student ID:</label>
+        <input type="number" id="studentID" name="studentID" required>
+        <br>
+        <label for="orderDate">Order Date:</label>
+        <input type="date" id="orderDate" name="orderDate" required>
+        <br>
+        <label for="totalAmount">Total Amount:</label>
+        <input type="number" id="totalAmount" name="totalAmount" step="0.01" required>
+        <br>
+        <button type="submit">Register</button>
+    </form>
+    
+    <h2>Examples:</h2>
+    <table>
+        <tr>
+            <th>orderID</th>
+            <th>studentID</th>
+            <th>orderDate</th>
+            <th>totalAmount</th>
+            <th>Actions</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>1</td>
+            <td>2023-05-01</td>
+            <td>100.00</td>
+            <td>
+                <button type="button">Edit</button>
+                <button type="button">Delete</button>
+            </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>2</td>
+            <td>2023-05-02</td>
+            <td>200.00</td>
+            <td>
+                <button type="button">Edit</button>
+                <button type="button">Delete</button>
+            </td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>3</td>
+            <td>2023-05-03</td>
+            <td>300.00</td>
+            <td>
+                <button type="button">Edit</button>
+                <button type="button">Delete</button>
+            </td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>1</td>
+            <td>2023-05-01</td>
+            <td>100.00</td>
+            <td>
+                <button type="button">Edit</button>
+                <button type="button">Delete</button>
+            </td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>2</td>
+            <td>2023-05-02</td>
+            <td>200.00</td>
+            <td>
+                <button type="button">Edit</button>
+                <button type="button">Delete</button>
+            </td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>3</td>
+            <td>2023-05-03</td>
+            <td>300.00</td>
+            <td>
+                <button type="button">Edit</button>
+                <button type="button">Delete</button>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
